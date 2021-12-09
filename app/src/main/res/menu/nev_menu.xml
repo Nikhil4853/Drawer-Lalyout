@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:title="Notes"
+    android:id="@+id/nev_notes">
+    <menu>
+        <item android:title="Biology"
+            android:icon="@drawable/icon_notes"
+            android:id="@+id/nev_bio_notes"/>
+        <item
+            android:icon="@drawable/icon_notes"
+            android:title="Chemistry"
+            android:id="@+id/nev_chemistry_notes"/>
+        <item android:title="Physics"
+            android:id="@+id/nev_physics_notes"
+            android:icon="@drawable/icon_notes"/>
+
+    </menu>
+
+</item>
+    <item android:title="Paper">
+        <menu>
+            <item android:title="2021"
+                android:id="@+id/nev_paper_2021"
+                android:icon="@drawable/year_icon"/>
+
+            <item android:title="2020"
+                android:id="@+id/nev_paper_2020"
+                android:icon="@drawable/year_icon"
+                />
+
+            <item android:title="2019"
+                android:id="@+id/nev_paper_2019"
+                android:icon="@drawable/year_icon"/>
+
+            <item android:title="2018"
+                android:id="@+id/nev_paper_2018"
+                android:icon="@drawable/year_icon"/>
+            <item android:title="2017"
+                android:id="@+id/nev_paper_2017"
+                android:icon="@drawable/year_icon"/>
+            <item android:title="2016"
+                android:id="@+id/nev_paper_2016"
+                android:icon="@drawable/year_icon"/>
+
+        </menu>
+    </item>
+</menu>
