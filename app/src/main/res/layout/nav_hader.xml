@@ -2,17 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
-    android:layout_marginStart="20dp"
+
+    android:background="#BAF4DBD1"
+
     android:orientation="vertical">
 <de.hdodenhof.circleimageview.CircleImageView
     android:layout_width="80dp"
     android:layout_height="80dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
     android:src="@drawable/icon"/>
     <TextView
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:text="Neet all paper and answer"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -22,6 +26,7 @@
         android:layout_height="wrap_content"
         android:text="nikhilkashyap.may021@gmail.com"
         android:textSize="15sp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="5sp"
         />
 
