@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setSupportActionBar(topAppBar)
         var drawerLayout: DrawerLayout = drawer_layout
         var navView: NavigationView = nav_view
         toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
