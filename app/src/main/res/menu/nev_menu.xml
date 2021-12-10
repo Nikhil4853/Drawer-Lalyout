@@ -2,10 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#BAF4DBD1"
+
     tools:showIn="navigation_view">
+
+
+
+    <item android:title="Home">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:title="Home"
+                android:id="@+id/nev_home"
+                android:icon="@drawable/nav_home"/>
+            </group>
+        </menu>
+    </item>
+
 <item android:title="Notes"
     android:id="@+id/nev_notes">
     <menu>
+<group android:checkableBehavior="single">
         <item android:title="Biology"
             android:icon="@drawable/icon_notes"
             android:id="@+id/nev_bio_notes"/>
@@ -17,11 +32,13 @@
             android:id="@+id/nev_physics_notes"
             android:icon="@drawable/icon_notes"/>
 
+</group>
     </menu>
 
 </item>
     <item android:title="Paper">
         <menu>
+<group android:checkableBehavior="single">
             <item android:title="2021"
                 android:id="@+id/nev_paper_2021"
                 android:icon="@drawable/year_icon"/>
@@ -45,6 +62,8 @@
                 android:id="@+id/nev_paper_2016"
                 android:icon="@drawable/year_icon"/>
 
+</group>
         </menu>
     </item>
+
 </menu>

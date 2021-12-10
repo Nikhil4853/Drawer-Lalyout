@@ -29,5 +29,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5sp"
         />
-
+<View
+    android:layout_width="match_parent"
+    android:layout_height="15dp"/>
 </LinearLayout>
